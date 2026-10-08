@@ -44,4 +44,3 @@ jobs:
           FOLDER: dist   # o "build" si usas Create React App
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MESSAGE: "Build from {sha}: {msg}"
-          echo test, and deploy your project.
